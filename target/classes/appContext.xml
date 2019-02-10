@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="shareprice" class="com.bablo.shareprice.repo.SharePriceRepo">
+          <property name="sharePriceVal">
+            <map>
+              <entry key="TCS" value="123.89"></entry>
+              <entry key="CGI" value="234.56"></entry>
+              <entry key="TISCO" value="456.23"></entry>
+              <entry key="TATA STEEL" value="256.23"></entry>
+              <entry key="TATA MOTORS" value="426.23"></entry>
+              <entry key="CIL" value="2345.23"></entry>
+            </map>
+          </property>
+        </bean>
+</beans>
